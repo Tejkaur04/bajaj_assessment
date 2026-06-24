@@ -1,9 +1,6 @@
 package com.assesment.bajaj.controller;
 
 
-import com.assesment.bajaj.dto.BFHLRequest;
-import com.assesment.bajaj.dto.BFHLResponse;
-import com.assesment.bajaj.service.BFHLService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,8 +9,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.assesment.bajaj.dto.BFHLRequest;
+import com.assesment.bajaj.dto.BFHLResponse;
+import com.assesment.bajaj.service.BFHLService;
+
 @RestController
-@RequestMapping("/BFHL")
+@RequestMapping({"/BFHL" , "/bfhl"})
 public class BFHLController {
 
     @Autowired
