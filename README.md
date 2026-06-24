@@ -1,4 +1,3 @@
-# bajaj_assessment
 # BFHL REST API - Spring Boot Implementation
 
 A Spring Boot REST API that classifies mixed data types (numbers, alphabets, special characters) and performs various transformations on them.
